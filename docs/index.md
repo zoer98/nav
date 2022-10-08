@@ -1,21 +1,31 @@
-# nav
+---
+layout: home
 
-一个由子舒建立的导航栏目，记录日常使用的工具和软件等。
+hero:
+  name: 子舒
+  text: 导航站
+  tagline: 一个由子舒建立的导航栏目，记录日常使用的工具和软件等。
+  image:
+    src: https://oss.zburu.com/author.png
+    alt: 子舒
+  actions:
+    - theme: brand
+      text: 开始查看
+      link: /item/bbs.md
+    - theme: alt
+      text: View on Github
+      link: https://Github.com/zburu
 
-<div class="giscus"></div>
-<script src="https://giscus.app/client.js"
-  data-repo="zburu/giscus-comment"
-  data-repo-id="R_kgDOIFumWg"
-  data-category="Announcements"
-  data-category-id="DIC_kwDOIFumWs4CRsSK"
-  data-mapping="title"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="top"
-  data-theme="preferred_color_scheme"
-  data-lang="zh-CN"
-  data-loading="lazy"
-  crossorigin="anonymous"
-  async>
-</script>
+features:
+  - icon: ⚡️
+    title: 这是一个闪电图标
+    details: wawawa
+  - icon: 🖖
+    title: 这是一个手掌图标
+    details: good...
+  - icon: 🛠️
+    title: 这是一个修理图标
+    details: cocococo
+---
+
+
